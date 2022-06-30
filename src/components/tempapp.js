@@ -29,7 +29,7 @@ const TempApp = () =>{
                     <i className='fa-solid fa-street-view'></i>{search}
                 </h2>
                 <h1 className='temp'>{city.temp}`cel</h1>
-                <h3 className='tempmin-max'>{(city.temp_min-273.15).toFixed(2)}`cel and {(city.temp_max-273.15).toFixed(2)}`cel</h3>
+                <h3 className='tempmin-max'>{(city.temp_min-273.15).toFixed(2)}`cel / {(city.temp_max-273.15).toFixed(2)}`cel</h3>
             </div>
             <div className='wave1'></div>
             <div className='wave2'></div>
